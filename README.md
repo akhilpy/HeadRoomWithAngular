@@ -32,7 +32,7 @@ And  use directive "headroom" as element or attribute in your HTML code.
 # How to manage CSS.
 This means you will need some CSS to achieve the effect you want. For example, you could hide the header on scroll down, and reveal it again on scroll up. The most basic CSS for this would be:
 
-`.headroom--pinned {
+headroom--pinned {
     display: block;
 }
 
@@ -49,6 +49,6 @@ This means you will need some CSS to achieve the effect you want. For example, y
 }
 .headroom--unpinned {
     transform: translateY(-100%);
-}`
+}
 
 PS- This repository created for only educational purpose with the help of HeadRoomJS's official page.  
