@@ -17,22 +17,22 @@ All files are included with this repository. You may include these  with any CDN
 
 #How to include HeadRoom module.
 
-angular.module('app', ['app',
+`angular.module('app', ['app',
 'headroom'
-]);
+]);` 
 
 And  use directive "headroom" as element or attribute in your HTML code.
 
-"<header headroom></header>"
+`"<header headroom></header>"
 <!-- or -->
 "<headroom></headroom>"
 <!-- or with options -->
-"<headroom tolerance="0" offset="0" scroller=".my-scroller" classes="{pinned:'headroom--pinned',unpinned:'headroom--unpinned',initial:'headroom'}"></headroom>"
+"<headroom tolerance="0" offset="0" scroller=".my-scroller" classes="{pinned:'headroom--pinned',unpinned:'headroom--unpinned',initial:'headroom'}"></headroom>"`
 
 #How to manage CSS.
 This means you will need some CSS to achieve the effect you want. For example, you could hide the header on scroll down, and reveal it again on scroll up. The most basic CSS for this would be:
 
-.headroom--pinned {
+`.headroom--pinned {
     display: block;
 }
 
@@ -49,6 +49,6 @@ This means you will need some CSS to achieve the effect you want. For example, y
 }
 .headroom--unpinned {
     transform: translateY(-100%);
-}
+}`
 
 PS- This repository created for only educational purpose with the help of HeadRoomJS's official page.  
